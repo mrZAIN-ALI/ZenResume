@@ -11,22 +11,22 @@ const TESTIMONIALS = [
   {
     src: testimonialSpiegelSrc,
     quote:
-      "Students often make silly mistakes on their resume by using inconsistent bullet points or font sizes. OpenResume’s auto format feature is a great help to ensure consistent format.",
-    name: "Ms. Spiegel",
+      "Students often make silly mistakes on their resume by using inconsistent bullet points or font sizes. ZenResume’s auto format feature is a great help to ensure consistent format.",
+    name: "Ms. Haseeb",
     title: "Educator",
   },
   {
     src: testimonialSantiSrc,
     quote:
-      "I used OpenResume during my last job search and was invited to interview at top tech companies such as Google and Amazon thanks to its slick yet professional resume design.",
-    name: "Santi",
+      "I used ZenResume during my last job search and was invited to interview at top tech companies such as Google and Amazon thanks to its slick yet professional resume design.",
+    name: "Farjad",
     title: "Software Engineer",
   },
   {
     src: testimonialVivianSrc,
     quote:
-      "Creating a professional resume on OpenResume is so smooth and easy! It saves me so much time and headache to not deal with google doc template.",
-    name: "Vivian",
+      "Creating a professional resume on ZenResume is so smooth and easy! It saves me so much time and headache to not deal with google doc template.",
+    name: "Ayesha",
     title: "College Student",
   },
 ];
@@ -67,7 +67,7 @@ export const Testimonials = ({ children }: { children?: React.ReactNode }) => {
       <h2 className="mb-8 text-center text-3xl font-bold">
         People{" "}
         <Image src={heartSrc} alt="love" className="-mt-1 inline-block w-7" />{" "}
-        OpenResume
+        ZenResume
       </h2>
       <div className="mx-auto mt-10 h-[235px] max-w-lg lg:h-[400px] lg:pt-28">
         <div className="relative lg:ml-[-50px]">
